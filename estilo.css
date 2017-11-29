@@ -6377,14 +6377,13 @@ padding-top: 50px;
 
 .descricao img {
 
-  max-width:800px;
-  max-height:500px;
-  width: auto;
-  height: auto;
+  max-width:600px;
+  max-height:600px;
   align-content: right;
   
   padding-left: 50px;
-  padding-bottom: 90px;
+  padding-bottom: 120px;
+  padding-top: 60px;
 }
 
 
@@ -6557,7 +6556,7 @@ padding-bottom: 50px;
 
 .bg-verde {
 
-  background:#64dd17;
+  background:#6bff81;
 }
 
 .bg-branco {
