@@ -6241,9 +6241,20 @@ a.text-dark:focus, a.text-dark:hover {
 
 .apresentacao {
 
-   padding-top: 50px; 
-   padding-bottom: 50px;
-   background:  #41A2EF;
+   padding-top: 150px; 
+   padding-bottom: 300px;
+   background:  #FFF;
+
+
+
+
+    background-image: url(imagens/runing.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    width: auto;
+    height: auto;
    
  } 
 
@@ -6259,18 +6270,28 @@ a.text-dark:focus, a.text-dark:hover {
   padding-bottom: 50px;
 }
 
+
+
 .apresentacao h1{
 
   font-family: 'Poppins', sans-serif;
-  font-size: 60;
+  font-size: 80;
   font-style: bold;
   
 }
 
 .apresentacao p{
   font-family: 'Poppins', sans-serif;
-  font-size: 18;
+  font-size: 20;
   font-style: thin;
+
+}
+
+
+.apresentacao a {
+
+ 
+
 }
 
 .bg-azul {
@@ -6347,8 +6368,10 @@ padding-top: 50px;
 
 .funcionalidades p {
   font-size: 16;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
+
 }
+
 
 .descricao {
 
