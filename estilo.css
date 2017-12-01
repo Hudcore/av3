@@ -6242,55 +6242,40 @@ a.text-dark:focus, a.text-dark:hover {
 .apresentacao {
 
    padding-top: 150px; 
-   padding-bottom: 300px;
+   padding-bottom: 200px;
    background:  #FFF;
 
 
-
-
-    background-image: url(imagens/runing.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+   background-image: url(imagens/runing.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   opacity: 0.8;
     
-    width: auto;
-    height: auto;
+   width: auto;
+   height: auto;
    
  } 
-
-.apresentacao img {
-
-  max-width:600px;
-  max-height:600px;
-  width: auto;
-  height: auto;
-  align-content: right;
-  padding-top: 20px;
-  padding-left: 150px;
-  padding-bottom: 50px;
-}
-
 
 
 .apresentacao h1{
 
   font-family: 'Poppins', sans-serif;
-  font-size: 80;
+  font-size: 120;
   font-style: bold;
   
 }
 
 .apresentacao p{
   font-family: 'Poppins', sans-serif;
-  font-size: 20;
-  font-style: thin;
-
+  font-size: 40;
+  font-style: bold;
 }
 
 
-.apresentacao a {
+.appstore {
 
- 
+ padding-left: 60px;
 
 }
 
@@ -6334,25 +6319,11 @@ font-family: 'Raleways', sans-serif;
   padding-right: 50px;
 }
 
-.depoimentos {
 
-  
-  font-family: : 'Raleways', sans-serif;
-}
-
-.depoimentos h5 {
-
-  font-weight: bold;
-}
-
-.depoimentos p {
-padding-top: 50px;
-
-}
 
 .funcionalidades {
 
-  padding-top: 90px;
+  padding-top: 30px;
   padding-bottom: 90px;
   font-family: 'Raleways', sans-serif;
 }
@@ -6377,13 +6348,13 @@ padding-top: 50px;
 
   font-family: 'Raleways', sans-serif;
   font-size: 18pt;
-  padding-bottom: 80px;
+  padding-bottom: 20px;
 }
 
 .descricao h1 {
 
   font-weight: bold;
-  padding-bottom: 80px;
+  padding-bottom: 40px;
   padding-top: 80px;
 }
 
@@ -6394,7 +6365,7 @@ padding-top: 50px;
 }
 .descricao p {
 
-  padding-top: 10px;
+  
   padding-right: 50px;
 }
 
@@ -6406,7 +6377,7 @@ padding-top: 50px;
   
   padding-left: 50px;
   padding-bottom: 120px;
-  padding-top: 60px;
+  padding-top: 70px;
 }
 
 
@@ -6465,22 +6436,6 @@ padding-top: 50px;
 
 }
 
-.video {
-
-  padding-top: 80px;
-  padding-bottom: 80px;
-  background:  #36b57c;
-  
-  }
-
-.video p {
-
-  padding-bottom: 15px;
-  padding-top: 15px;
-  font color: white;
-  padding-left: 0px;
-  padding-right: 150px;
-}
 
 .aboutus {
 
@@ -6530,42 +6485,30 @@ padding-bottom: 50px;
 
 }
 
+.sobre h1 {
+
+padding-top: 20px;
+
+}
+
 .sobre p {
 
   padding-top: 30px;
-}
-
-.time {
-
-  background: #41A2EF;
-}
-
-.time p {
-  padding-bottom: 10px;
-  margin-left: 50px;
-  margin-right: 50px;
-}
-
-.time h1 {
-
-  padding-top: 30px;
-  padding-bottom: 20px;
-}
-
-.time img {
-
   padding-bottom: 60px;
-  margin-left: 50px;
-  margin-right: 50px;
-  max-width: 70%;
 }
 
+.sobre img {
 
-.contact h1 {
-  padding-top: 30px;
-  padding-bottom: 30px;
+padding-left: 50px;
+padding-bottom: 50px;
 
 }
+
+.ajuste {
+
+  padding-right: 50px;
+}
+
 
 .footer {
     position: absolute;
@@ -6587,11 +6530,28 @@ padding-bottom: 50px;
   background: #FFF;
 }
 
-.botao-loja{
 
-width:180px;
-border:0;
-vertical-align: middle;
+.aboutus input {
+
+  margin-left: 200px;
+  width:50%;
+  font-size: 13px
+}
+
+.aboutus button {
+
+margin-left: 380px;
+margin-top: 20px;
 
 }
 
+.wrapper {
+  height: 100%;
+  min-height: 100%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
